@@ -13,4 +13,4 @@ jobs:
             - name: Install dependencies
               run: npm ci # install dependencies that are in the package.json file
             - name: Run tests
-              run: npm install
+              run: npm test
